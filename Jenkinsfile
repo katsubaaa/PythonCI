@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/katsubaaa/PythonCI'
+        git branch: 'main', url: 'https://github.com/katsubaaa/PythonCI'
       }
     }
     stage('Install') {
