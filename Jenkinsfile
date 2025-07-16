@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Checkout') {
       steps {
-        git 'https://github.com/example/ci-demo.git'
+        git 'https://github.com/katsubaaa/PythonCI'
       }
     }
     stage('Install') {
